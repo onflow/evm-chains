@@ -415,6 +415,14 @@
     "format": "png"
   }]
 }, {
+  "name": "bless",
+  "icons": [{
+    "url": "ipfs://QmUP7NPPrCe6N6k8RQh4KuSBU2xMvbyo6enCtzyE5v4bmQ",
+    "width": 600,
+    "height": 600,
+    "format": "png"
+  }]
+}, {
   "name": "SaitaBlockChain(SBC)",
   "icons": [{
     "url": "ipfs://QmVFWTqfqnMXbiPKpDFucE9QSQ1SVsUWs4HxBqRGjgQCbu",
@@ -604,6 +612,14 @@
     "url": "ipfs://QmTPbbhH4CkQiQWm4JUh3J9o5w79vXjFZaMBW4DKNuSVU3",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "nibiru",
+  "icons": [{
+    "url": "ipfs://QmZ4ujZagoLozYSypp7uJESgExJhGGJTmmpT6AoDV8GzZW",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -1085,6 +1101,14 @@
     "width": 400,
     "height": 400,
     "format": "svg"
+  }]
+}, {
+  "name": "emctest",
+  "icons": [{
+    "url": "ipfs://QmUDymyXZS9eUn5p3tyDyxhD8GMB91HUBAAvySwENfPevh",
+    "width": 502,
+    "height": 579,
+    "format": "png"
   }]
 }, {
   "name": "hybrid",
@@ -1591,6 +1615,14 @@
     "format": "png"
   }]
 }, {
+  "name": "sophon-testnet",
+  "icons": [{
+    "url": "ipfs://QmVJWQ1f1vuQFdajLnqgbV3udPJKK7yC4comWwjT6NUinQ",
+    "width": 128,
+    "height": 64,
+    "format": "svg"
+  }]
+}, {
   "name": "ramestta",
   "icons": [{
     "url": "ipfs://QmUtnYVBeDMKudGq2Wue25pqYfQEdgbyvzTzoGPMqRGMJZ",
@@ -1805,6 +1837,14 @@
     "width": 512,
     "height": 512,
     "format": "png"
+  }]
+}, {
+  "name": "apexfusion",
+  "icons": [{
+    "url": "ipfs://QmSnqLVwFyeX9AZDvBKVS7diDf2Xb7m9nDcamGgpCMhL3d",
+    "width": 410,
+    "height": 410,
+    "format": "svg"
   }]
 }, {
   "name": "movoscan",
@@ -3119,6 +3159,14 @@
     "format": "png"
   }]
 }, {
+  "name": "cratd2c-testnet",
+  "icons": [{
+    "url": "ipfs://bafkreiczmtj47hwgmmtsy3xylhswu4q6rphpt42hznv37shjiaxsx3uqde",
+    "width": 128,
+    "height": 128,
+    "format": "png"
+  }]
+}, {
   "name": "tmychain",
   "icons": [{
     "url": "ipfs://Qmcd19ksUvNMD1XQFSC55jJhDPoF2zUzzV7woteFiugwBH",
@@ -3685,6 +3733,14 @@
     "width": 800,
     "height": 800,
     "format": "svg"
+  }]
+}, {
+  "name": "EsaCoins",
+  "icons": [{
+    "url": "ipfs://QmRZ1LHedFNs3pXhxcjhbQtHLmMzDhioKJ6ZsRwHNpbtiF",
+    "width": 1008,
+    "height": 1008,
+    "format": "png"
   }]
 }, {
   "name": "kaibascan",
@@ -5191,6 +5247,14 @@
     "format": "png"
   }]
 }, {
+  "name": "changchain",
+  "icons": [{
+    "url": "ipfs://QmbEytMCh2xFr7q87HjthX4K2MKmjfHih2mqS42tqTZoMy",
+    "width": 1024,
+    "height": 1024,
+    "format": "jpg"
+  }]
+}, {
   "name": "stn",
   "icons": [{
     "url": "ipfs://QmRgZVpjik4cH3Sb6wLRpdnfv9kiMEZ8fugfkzTgk3bpRW",
@@ -5580,6 +5644,14 @@
     "url": "ipfs://QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF",
     "width": 896,
     "height": 690,
+    "format": "png"
+  }]
+}, {
+  "name": "vcity",
+  "icons": [{
+    "url": "ipfs://QmXBNp75r6DUCB99vknr5B1hHQFMCc1c2wE3qNbYkuss9C",
+    "width": 100,
+    "height": 100,
     "format": "png"
   }]
 }, {

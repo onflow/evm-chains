@@ -3271,7 +3271,7 @@
   "name": "Omni Omega",
   "chain": "Omni",
   "status": "active",
-  "rpc": ["https://omega.omni.network"],
+  "rpc": ["https://omega.omni.network", "wss://wss.omega.omni.network"],
   "features": [{
     "name": "EIP155"
   }],
@@ -3895,6 +3895,22 @@
     "url": "https://mainnet.opbnbscan.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "EKAASH",
+  "chain": "EKAASH",
+  "rpc": ["https://mainnet.ekaash.biz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Global Mobile Money Gateway",
+    "symbol": "$EKH",
+    "decimals": 18
+  },
+  "infoURL": "https://ekaash.biz",
+  "shortName": "ekaash",
+  "chainId": 205,
+  "networkId": 205,
+  "slip44": 1,
+  "explorers": []
 }, {
   "name": "VinuChain Testnet",
   "chain": "VinuChain Testnet",
@@ -6483,9 +6499,9 @@
   "networkId": 545,
   "icon": "flowevm",
   "explorers": [{
-    "name": "Flow Diver",
-    "url": "https://testnet.flowdiver.io",
-    "standard": "none"
+    "name": "FlowScan: Testnet",
+    "url": "https://evm-testnet.flowscan.io",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Vela1 Chain Mainnet",
@@ -17925,6 +17941,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Chang Chain Foundation Mainnet",
+  "chain": "ChangChain",
+  "rpc": ["https://rpc.cthscan.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Chang Coin Thailand",
+    "symbol": "CTH",
+    "decimals": 18
+  },
+  "infoURL": "https://changcoin.foundation/",
+  "shortName": "ChangChain",
+  "chainId": 5858,
+  "networkId": 5858,
+  "icon": "changchain",
+  "explorers": [{
+    "name": "CTH Scan",
+    "url": "https://cthscan.com",
+    "standard": "EIP3091",
+    "icon": "blockscout"
+  }]
+}, {
   "name": "Wegochain Rubidium Mainnet",
   "chain": "RBD",
   "rpc": ["https://proxy.wegochain.io", "http://wallet.wegochain.io:7764"],
@@ -18215,6 +18252,25 @@
   "chainId": 6502,
   "networkId": 6502,
   "explorers": []
+}, {
+  "name": "Flamma Testnet",
+  "chain": "Flamma",
+  "rpc": ["https://testnetrpc.flamma.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flamma",
+    "symbol": "FLA",
+    "decimals": 18
+  },
+  "infoURL": "https://flamma.network",
+  "shortName": "FlammaTestnet",
+  "chainId": 6550,
+  "networkId": 6550,
+  "explorers": [{
+    "name": "flascan",
+    "url": "https://testnet.flascan.net",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Scolcoin WeiChain Testnet",
   "chain": "SCOLWEI-testnet",
@@ -18794,6 +18850,22 @@
     "url": "https://explorer.bit-rock.io",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Nibiru Devnet-3",
+  "chain": "Nibiru",
+  "rpc": ["https://evm-rpc.devnet-3.nibiru.fi"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "NIBI",
+    "symbol": "NIBI",
+    "decimals": 18
+  },
+  "infoURL": "https://nibiru.fi",
+  "shortName": "nibiru",
+  "chainId": 7222,
+  "networkId": 7222,
+  "icon": "nibiru",
+  "explorers": []
 }, {
   "name": "ZEUS Testnet",
   "chain": "tZEUS",
@@ -20816,6 +20888,44 @@
     "standard": "none",
     "icon": "nexaChain"
   }]
+}, {
+  "name": "Apex Fusion - Nexus Mainnet",
+  "chain": "Nexus Mainnet",
+  "rpc": ["https://rpc.nexus.mainnet.apexfusion.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Apex Fusion Token",
+    "symbol": "AP3X",
+    "decimals": 18
+  },
+  "infoURL": "https://apexfusion.org/",
+  "features": [{
+    "name": "EIP155"
+  }],
+  "shortName": "AP3X",
+  "chainId": 9069,
+  "networkId": 9069,
+  "icon": "apexfusion",
+  "explorers": []
+}, {
+  "name": "Apex Fusion - Nexus testnet",
+  "chain": "Nexus testnet",
+  "rpc": ["https://rpc.nexus.testnet.apexfusion.org/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Apex Fusion Token",
+    "symbol": "tAP3X",
+    "decimals": 18
+  },
+  "infoURL": "https://apexfusion.org/",
+  "features": [{
+    "name": "EIP155"
+  }],
+  "shortName": "tAP3X",
+  "chainId": 9070,
+  "networkId": 9070,
+  "icon": "apexfusion",
+  "explorers": []
 }, {
   "name": "Genesis Coin",
   "chain": "Genesis",
@@ -25438,7 +25548,7 @@
 }, {
   "name": "Curtis",
   "chain": "Curtis",
-  "rpc": ["https://curtis.rpc.caldera.xyz/http"],
+  "rpc": ["https://rpc.curtis.apechain.com"],
   "faucets": ["https://curtis.hub.caldera.xyz"],
   "nativeCurrency": {
     "name": "ApeCoin",
@@ -25452,7 +25562,7 @@
   "icon": "curtis",
   "explorers": [{
     "name": "Curtis Explorer",
-    "url": "https://curtis.explorer.caldera.xyz",
+    "url": "https://explorer.curtis.apechain.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -26407,6 +26517,39 @@
     "url": "https://deescan.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Blessnet",
+  "chain": "ETH",
+  "rpc": ["https://blessnet.calderachain.xyz/http", "wss://blessnet.calderachain.xyz/ws"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bless",
+    "symbol": "BLESS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blessnet.io",
+  "shortName": "bless",
+  "chainId": 45513,
+  "networkId": 45513,
+  "icon": "bless",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blessnet.calderaexplorer.xyz",
+    "icon": "bless",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-42161",
+    "bridges": [{
+      "url": "https://blessnet.bridge.caldera.xyz"
+    }]
+  }
 }, {
   "name": "Fusion Testnet",
   "chain": "FSN",
@@ -27828,6 +27971,7 @@
   "shortName": "cratd2c-testnet",
   "chainId": 65349,
   "networkId": 65349,
+  "icon": "cratd2c-testnet",
   "explorers": [{
     "name": "Blockscout",
     "url": "https://explorer-testnet.cratd2csmartchain.io",
@@ -28992,6 +29136,22 @@
   },
   "infoURL": "https://xprotocol.org/"
 }, {
+  "name": "Esa",
+  "chain": "Esa",
+  "rpc": ["http://65.108.151.70:8545"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Esa",
+    "symbol": "Esa",
+    "decimals": 18
+  },
+  "infoURL": "https://esculap.us",
+  "shortName": "Esa",
+  "chainId": 83278,
+  "networkId": 83278,
+  "icon": "EsaCoins",
+  "explorers": []
+}, {
   "name": "ZEDXION",
   "chain": "ZEDXION",
   "icon": "zedx",
@@ -29610,6 +29770,26 @@
   "explorers": [{
     "name": "eLiberty Testnet",
     "url": "https://testnet.eliberty.ngo",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "EdgaMatrix Chain Testnet",
+  "chain": "EMC Testnet",
+  "icon": "emctest",
+  "rpc": ["https://rpc1-testnet.emc.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "EdgaMatrix Chain Token",
+    "symbol": "EMC",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "EMCTestnet",
+  "chainId": 99876,
+  "networkId": 99876,
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet.emcscan.com",
     "standard": "EIP3091"
   }]
 }, {
@@ -35309,6 +35489,39 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Blessnet Sepolia",
+  "chain": "ETH",
+  "rpc": ["https://blessnet-sepolia-testnet.rpc.caldera.xyz/http", "wss://blessnet-sepolia-testnet.rpc.caldera.xyz/ws"],
+  "faucets": ["https://blessnet-sepolia-testnet.hub.caldera.xyz"],
+  "nativeCurrency": {
+    "name": "Bless",
+    "symbol": "BLESS",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://blessnet.io",
+  "shortName": "bless-sepolia",
+  "chainId": 11145513,
+  "networkId": 11145513,
+  "icon": "bless",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://blessnet-sepolia-testnet.explorer.caldera.xyz",
+    "icon": "bless",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-421614",
+    "bridges": [{
+      "url": "https://blessnet-sepolia-testnet.bridge.caldera.xyz"
+    }]
+  }
+}, {
   "name": "Sepolia",
   "title": "Ethereum Testnet Sepolia",
   "chain": "ETH",
@@ -35685,9 +35898,11 @@
   "shortName": "Vcity",
   "chainId": 20230825,
   "networkId": 20230825,
+  "icon": "vcity",
   "explorers": [{
     "name": "Vcity Explorer",
     "url": "https://scan.vcity.app",
+    "icon": "vcity",
     "standard": "EIP3091"
   }]
 }, {
@@ -36849,6 +37064,33 @@
     "url": "https://staging-faint-slimy-achird.explorer.staging-v3.skalenodes.com",
     "standard": "EIP3091"
   }]
+}, {
+  "name": "Sophon Testnet",
+  "chain": "Sophon Testnet",
+  "rpc": ["https://rpc.testnet.sophon.xyz/"],
+  "nativeCurrency": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "faucets": [],
+  "infoURL": "",
+  "shortName": "sophon-testnet",
+  "chainId": 531050104,
+  "networkId": 531050104,
+  "explorers": [{
+    "name": "Sophon Testnet",
+    "url": "https://explorer.testnet.sophon.xyz",
+    "icon": "sophon-testnet",
+    "standard": "none"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [{
+      "url": "https://bridge.zksync.io/"
+    }]
+  }
 }, {
   "name": "Degen Chain",
   "title": "Degen Chain",
