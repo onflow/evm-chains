@@ -679,6 +679,14 @@
     "format": "png"
   }]
 }, {
+  "name": "mechain",
+  "icons": [{
+    "url": "ipfs://QmNqJnEL2Aj7pLKYnJwRnWGZFwUWTsvfZm8CofA8ztvD6J",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "lucky",
   "icons": [{
     "url": "ipfs://bafkreidmvcd5i7touug55hj45mf2pgabxamy5fziva7mtx5n664s3yap6m",
@@ -5759,6 +5767,14 @@
     "format": "png"
   }]
 }, {
+  "name": "ethos",
+  "icons": [{
+    "url": "ipfs://QmTHkNAvYzYnHoKm5ht7RKXqChFeBndptunhMDfcCict2J",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "defioraclemeta",
   "icons": [{
     "url": "ipfs://QmYrMRnjQJcNkYq9AvZ2FQ9kzYj9szzP4YDmyNA1ybd8xE",
@@ -5988,6 +6004,14 @@
     "url": "ipfs://QmfXZCAh3HWS2bJroUStN9TieL4QA9QArMotie3X4pwBfj",
     "width": 72,
     "height": 72,
+    "format": "svg"
+  }]
+}, {
+  "name": "bifrost-polkadot",
+  "icons": [{
+    "url": "ipfs://QmcNsubj4ane1QXTfWt4Xm4SYU59TMnevtW5TuKprrBCHk",
+    "width": 480,
+    "height": 480,
     "format": "svg"
   }]
 }, {
