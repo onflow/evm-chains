@@ -7526,7 +7526,7 @@
     "standard": "none"
   }]
 }, {
-  "name": "Mainnet",
+  "name": "EVM on Flow (Mainnet)",
   "chain": "Flow",
   "rpc": ["https://mainnet.evm.nodes.onflow.org"],
   "faucets": [],
