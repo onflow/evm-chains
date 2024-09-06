@@ -335,6 +335,14 @@
     "format": "png"
   }]
 }, {
+  "name": "bittensor",
+  "icons": [{
+    "url": "ipfs://QmcwymedPKMBVUptXLeuco2kV7LEhyd3bQ6x3aAh4VAmNJ",
+    "width": 256,
+    "height": 256,
+    "format": "png"
+  }]
+}, {
   "name": "eurus",
   "icons": [{
     "url": "ipfs://QmaGd5L9jGPbfyGXBFhu9gjinWJ66YtNrXq8x6Q98Eep9e",
@@ -2164,6 +2172,14 @@
     "url": "ipfs://bafybeiadbavrwcial76vs5ovhyykyaobteltuhliqcthdairbja4klwzhu",
     "width": 1000,
     "height": 1000,
+    "format": "png"
+  }]
+}, {
+  "name": "zeroth",
+  "icons": [{
+    "url": "ipfs://QmVz2jPdp5vXo4mJVuTXLmwcfQsw3XVojkmochPckvCowz",
+    "width": 180,
+    "height": 180,
     "format": "png"
   }]
 }, {
